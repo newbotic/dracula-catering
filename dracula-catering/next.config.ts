@@ -8,7 +8,7 @@ const withSerwist = withSerwistInit({
 });
 
 const nextConfig: NextConfig = {
-  output: "standalone",
+  // output: "standalone", // Scoasă temporar pentru Railway
 };
 
 export default withSerwist(nextConfig);
